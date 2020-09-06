@@ -1,0 +1,182 @@
+* { margin:0;
+    padding:0;
+     }
+
+body{
+	background-color: #efefef ;
+	background-image: url('pagebg.png');
+}
+
+
+.header {
+	background-color: black;
+	color: #f4f4f4;
+}
+
+.header h1 {
+	margin-left: 200px ;
+	margin-top: -120px ;
+	padding-bottom: 80px ;
+}
+
+.header img {
+	padding: 50px ;
+}
+
+.navbar a { color:black;
+  	text-decoration: none; 
+  	font-size: 20px;}
+
+.navbar a:hover{
+	background-color:yellow;
+	color:orange;
+	box-sizing:border-box;
+
+}
+
+.navbar a:active{
+	background-image:url('activeeyes.png');
+	background-size:100%, 100%;
+	background-position:center;
+}
+
+.navbar  a { float:left;
+	width:33.3333% ;
+	padding:40px; 
+	box-sizing:border-box;
+	background-color:#fcbd0f;
+	border-left: 5px solid orange;
+	border-right: 5px solid orange;}
+
+.navb {
+	font: 5vw solid;
+	font-family: Helvetica;
+	font-weight:bold;
+	text-align:center;
+	letter-spacing:20px;}
+
+.welcometext {
+	color: white;
+	font-size: 200px ;
+	font-family: Times;
+}
+
+.paragraph {
+	color:white;
+	font-family:Times;
+	font-size:20px;
+}				
+
+.center {
+	text-align:center;
+	padding-top:380px;
+	padding-bottom:380px;
+}
+
+.block {
+	background-color:#f4f4f4;
+	width:50%;
+	float:left;
+	box-sizing:border-box;
+	padding:100px ;
+	font-size:25px;
+
+}
+
+.block2 {
+	background-color:#f4f4f4;
+	max-width:50%;
+	float:left;
+	box-sizing:border-box;
+	padding:100px;
+	font-size:25px;
+	border-bottom:100px;
+}
+
+
+
+
+.portrait {
+	width:100%;
+}
+
+.aboutbackground {
+	background-color:#f4f4f4;
+}
+
+.whiteblock {
+
+	background-color:#f4f4f4;
+	float:left;
+	box-sizing:border-box;
+	padding:0%;
+
+}
+
+.artwork {
+	padding:50px;
+	background-color:white;
+
+	float:left;
+	width:40%;
+	box-sizing:border-box;
+
+
+}
+
+.descriptiontitle {
+	float:left;
+	background-color:white;
+	width:60%;
+	box-sizing:border-box;
+	text-align:center;
+	padding:100px;
+	
+}
+
+.description {
+	float:left;
+	background-color:black;
+	width:60%;
+	box-sizing:border-box;
+	text-align:center;
+	padding:165px;
+	color:white;
+	
+}
+
+#showcase {
+
+	background-color:#f4f4f4;
+	min-height:500px;
+	position:center right;
+	text-align:center;
+	overflow:hidden;
+}
+
+.socialmediaimages a {
+	
+	position:center;
+	width:100%;
+	box-sizing:border-box;
+	padding:200px;
+	float:left;
+	text-align:center;
+	font:40px white Times;
+	text-decoration:none;
+	color:white;
+}
+
+.comingsoon {
+
+	font:40px Times;
+	color:white;
+	background-color:black;
+	padding:30px 60px;
+	border:10px white solid;
+	text-align:center;
+	position:center;
+	margin-top:600px;
+}
+
+	

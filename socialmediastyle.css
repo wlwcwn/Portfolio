@@ -1,0 +1,175 @@
+* { margin:0;
+    padding:0;
+     }
+
+body{
+	background-color: black ;
+}
+
+
+.header {
+	background-color: black;
+	color: #f4f4f4;
+}
+
+.header h1 {
+	margin-left: 200px ;
+	margin-top: -120px ;
+	padding-bottom: 80px ;
+}
+
+.header img {
+	padding: 50px ;
+}
+
+.navbar a { color:black;
+  	text-decoration: none; 
+  	font-size: 20px;}
+
+.navbar a:hover{
+	background-color:yellow;
+	color:orange;
+	box-sizing:border-box;
+
+}
+
+.navbar a:active{
+	background-image:url('activeeyes.png');
+	background-size:100%, 100%;
+	background-position:center;
+}
+
+.navbar  a { float:left;
+	width:33.3333% ;
+	padding:40px; 
+	box-sizing:border-box;
+	background-color:#fcbd0f;
+	border-left: 5px solid orange;
+	border-right: 5px solid orange;}
+
+.navb {
+	font: 5vw solid;
+	font-family: Helvetica;
+	font-weight:bold;
+	text-align:center;
+	letter-spacing:20px;}
+
+.welcometext {
+	color: white;
+	font-size: 200px ;
+	font-family: Times;
+}
+
+.paragraph {
+	color:white;
+	font-family:Times;
+	font-size:20px;
+}				
+
+.center {
+	text-align:center;
+	padding-top:380px;
+	padding-bottom:380px;
+}
+
+.block {
+	background-color:#f4f4f4;
+	width:50%;
+	float:left;
+	box-sizing:border-box;
+	padding:100px ;
+	font-size:25px;
+
+}
+
+.block2 {
+	background-color:#f4f4f4;
+	max-width:50%;
+	float:left;
+	box-sizing:border-box;
+	padding:100px;
+	font-size:25px;
+	border-bottom:100px;
+}
+
+
+div.polaroid {
+  width: 33.3%;
+  background-color: white;
+  margin: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.portrait {
+	width:100%;
+}
+
+.aboutbackground {
+	background-color:#f4f4f4;
+}
+
+.whiteblock {
+
+	background-color:#f4f4f4;
+	float:left;
+	box-sizing:border-box;
+	padding:0%;
+
+}
+
+#showcase {
+
+	background-color:#f4f4f4;
+	min-height:500px;
+	position:center right;
+	text-align:center;
+	overflow:hidden;
+}
+
+.socialmediaimages a {
+	
+	position:center;
+	width:100%;
+	box-sizing:border-box;
+	padding:180px;
+	float:left;
+	text-align:center;
+	font:40px white Times;
+	text-decoration:none;
+	color:white;
+	border:solid black 50px;
+}
+
+#instagram {
+	
+	background-image:url('instagramclose.png');
+}
+
+#instagram:hover {
+	background-image:url('instagram.png');
+}
+
+#twitter {
+	
+	background-image:url('twitterclose.png');
+}
+
+#twitter:hover {
+	background-image:url('twitter.png');
+}
+
+
+#youtube {
+
+	background-image:url('youtubeclose.png');  }
+
+#youtube:hover {
+	background-image:url('youtube.png');
+}
+
+
+	
